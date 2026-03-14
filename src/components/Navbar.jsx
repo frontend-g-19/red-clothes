@@ -66,7 +66,7 @@ export default function Navbar() {
 
       {/* CART (RIGHT) */}
       <div
-        className={`fixed top-0 right-0 h-full w-[420px] bg-white shadow-2xl z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-105 bg-white shadow-2xl z-50 transform transition-transform duration-300 ${
           cartOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -110,7 +110,7 @@ export default function Navbar() {
 
       {/* FAVORITE (LEFT) */}
       <div
-        className={`fixed top-0 left-0 h-full w-[420px] bg-white shadow-2xl z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-105 bg-white shadow-2xl z-50 transform transition-transform duration-300 ${
           favoriteOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
