@@ -1,0 +1,8 @@
+https://authmodel.onrender.com/
+
+POST /auth/signup – create an account
+POST /auth/login – obtain a JWT
+
+GET /account/me – get current account
+PATCH /account/me – update current account
+DELETE /account/me – delete current account
